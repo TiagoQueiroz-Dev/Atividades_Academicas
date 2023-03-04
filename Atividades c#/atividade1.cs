@@ -9,7 +9,7 @@ class program
         Power_Ranger = 19 != 10;
 
         Console.WriteLine(Power_Ranger);
-        Console.WriteLine("slv");        
+               
 
     }
 }
