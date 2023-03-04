@@ -1,2 +1,2 @@
 # Atividades_Academicas
-neste repositorio estao todas as minhas experiencias como aluno
+Neste repositorio estao todas as minhas experiencias como aluno
