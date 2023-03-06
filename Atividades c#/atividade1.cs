@@ -4,11 +4,14 @@ class program
     static void Main()
     {
         
-        bool Power_Ranger;
+        bool Power_Ranger,numero1,resultado;
 
-        Power_Ranger = 19 != 10;
+        Power_Ranger = true;
+        numero1 = false;
 
-        Console.WriteLine(Power_Ranger);
+        resultado = Power_Ranger || numero1;
+
+        Console.WriteLine(!resultado);
                
 
     }
