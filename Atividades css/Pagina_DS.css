@@ -1,0 +1,78 @@
+@charset "UTF-8";
+Body{
+    background-color: #012030;
+}
+#LP{
+    color: #04BF8A;
+}
+#FTI{
+    color: #45C4B0;
+}
+#COE{
+    color: #9FC131;
+}
+#IA{
+    color: #bcfd7f;
+}
+#FDW{
+    color: #00ffae;
+}
+#IE{
+    color: #65ffe8;
+}
+#DS{
+    color: #46d346;
+}
+#GS{
+    color: #7AB8BF;
+}
+#PW{
+    color: #C2BB00;
+}
+#MS{
+    color: #FFEC5C;
+}
+#MP{
+    color: #9FC131;
+}
+#IHC{
+    color: #44803F;
+}
+table,th,td{
+    margin-left: 43%;
+    border: 0.5px solid #000000;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 5px 15px;
+}
+th{
+    background-color: #BDA523;
+}
+#a,#c,#e{
+    background-color: #E3C75F;
+}
+#b,#d,#f{
+    background-color: #CC8D1A;
+}
+h1{
+    margin-left: 30%;
+    color: #BDA523;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#VW{
+    color: #E3C75F;
+}
+#WV{
+    color: #CC8D1A;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+li,h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
