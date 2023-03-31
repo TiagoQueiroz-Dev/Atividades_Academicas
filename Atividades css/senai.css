@@ -1,0 +1,144 @@
+@media screen and (min-width: 768px) and (max-width: 1080px) {   
+    body{
+        background-color: #012030 ;
+    }
+    p {
+        color: rgb(226, 173, 0);
+    }
+    h1,h2{
+        color: rgb(226, 173, 0);
+        font-size: 50px;
+        font-weight: 900;
+    }
+    h3{
+        color: rgb(231, 0, 0);
+    }
+    table,tr,td{
+        background-color: #470f0f ;
+        color: rgb(1, 255, 242);
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 562px) {   
+    body{
+        background-color: #7dbfe0 ;
+    }
+    p {
+        color: rgb(112, 100, 58);
+    }
+    h1,h2{
+        color: rgb(112, 100, 58);
+        font-size: 50px;
+        font-weight: 900;
+    }
+    h3{
+        color: rgb(163, 74, 74);
+    }
+    table,tr,td{
+        background-color: #0b006e ;
+        color: rgb(255, 255, 255);
+    }
+}
+@media screen and (min-width: 562px) and (max-width: 768px) {   
+    body{
+        background-color: #36c048 ;
+    }
+    p {
+        color: rgb(121, 28, 28);
+    }
+    h1,h2{
+        color: rgb(121, 28, 28);
+        font-size: 50px;
+        font-weight: 900;
+    }
+    h3{
+        color: rgb(56, 35, 35);
+    }
+    table,tr,td{
+        background-color: #c318c9 ;
+        color: rgb(26, 106, 226);
+    }
+}
+/*	Com uma largura mínima de 992 pixels. Monitores por exemplo. */
+
+@media screen and (min-width: 0px) and (max-width: 300px) {  
+    body{
+        background-color: #0091da ;
+    }
+    p {
+        color: rgb(200,0,0);
+    }
+    h1,h2{
+        color: rgb(200,0,0);
+        font-size: 50px;
+        font-weight: 900;
+    }
+    h3{
+        color: rgb(0, 231, 89);
+    }
+    table,tr,td{
+        background-color: #5935fa ;
+        color: rgb(0, 255, 55);
+    }
+}
+
+/* Dispositivos com largura mínima de 1200 pixels. Por exemplo TVs. */
+@media screen and (min-width: 1080px) and (max-width: 1364px){ 
+    body{
+        background-color: #5f0063 ;
+    }
+    p {
+        color: rgb(0, 231, 89);
+    }
+    h1,h2{
+        color: rgb(0, 231, 89);
+        font-size: 50px;
+        font-weight: 900;
+    }
+    h3{
+        color: rgb(231, 0, 0);
+    }
+    table,tr,td{
+        background-color: #470f0f ;
+        color: rgb(1, 255, 242);
+    }
+}
+@media screen and (min-width: 1364px) and (max-width: 1721px){ 
+    body{
+        background-color: #462b47 ;
+    }
+    p {
+        color: rgb(74, 172, 111);
+    }
+    h1,h2{
+        color: rgb(74, 172, 111);
+        font-size: 50px;
+        font-weight: 900;
+    }
+    h3{
+        color: rgb(80, 7, 7);
+    }
+    table,tr,td{
+        background-color: #ca7c7c ;
+        color: rgb(1, 103, 255);
+    }
+}
+@media screen and (min-width: 1721px) and (max-width: 1963px){ 
+    body{
+        background-color: #000000 ;
+    }
+    p {
+        color: rgb(79, 97, 0);
+    }
+    h1,h2{
+        color: rgb(79, 97, 0);
+        font-size: 50px;
+        font-weight: 900;
+    }
+    h3{
+        color: rgb(255, 3, 3);
+    }
+    table,tr,td{
+        background-color: #73ff3b ;
+        color: rgb(1, 255, 77);
+    }
+}
