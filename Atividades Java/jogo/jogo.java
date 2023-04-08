@@ -1,9 +1,35 @@
-package jogo;
-public class joguin extends javax.swing.JFrame {
-    codigo a = new codigo();
+/*
+observaçoes do codigo
 
-    public joguin() {
+1º organizar o embaralho:
+ao embaralhar o jogo embaralha de qualquer jeito fazendo com que algumas vezes seja impossivel de ganhar o jogo
+
+2º Vitoria:
+a vitoria ela so ocorre na primeira vez, caso o usuario coloque p jogar novamente e coso citado a cima ao ocorra ele n fala q o jogador venceu ou sej aso funciona uma vez
+OBS: ja coloquei laço de repetiça e nao funcionou
+
+3º Tempo:
+falta colocar o temp p contar durante a jogada
+
+4º Organizaçao:
+falta nomear as variaveis de forma legivel a outr programadores e comentar o codigo
+*/
+package jogo;
+
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
+
+public class jogo extends javax.swing.JFrame {
+    Codigo1 a = new Codigo1();
+    public ArrayList<String> posicao = new ArrayList();
+    int teste = 1;
+    
+    
+    
+
+    public jogo() {
         initComponents();
+        //a.time(Time);
     }
 
     @SuppressWarnings("unchecked")
@@ -26,10 +52,14 @@ public class joguin extends javax.swing.JFrame {
         B14 = new javax.swing.JButton();
         B15 = new javax.swing.JButton();
         B16 = new javax.swing.JButton();
+        caixa = new javax.swing.JLabel();
+        Contador = new javax.swing.JLabel();
+        Time = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(104, 178, 248));
 
-        B1.setLabel("14");
+        B1.setText("1");
         B1.setName("B1"); // NOI18N
         B1.setOpaque(true);
         B1.addActionListener(new java.awt.event.ActionListener() {
@@ -38,7 +68,7 @@ public class joguin extends javax.swing.JFrame {
             }
         });
 
-        B2.setLabel("1");
+        B2.setText("2");
         B2.setName("B1"); // NOI18N
         B2.setOpaque(true);
         B2.addActionListener(new java.awt.event.ActionListener() {
@@ -47,7 +77,7 @@ public class joguin extends javax.swing.JFrame {
             }
         });
 
-        B3.setLabel("9");
+        B3.setText("3");
         B3.setName("B1"); // NOI18N
         B3.setOpaque(true);
         B3.addActionListener(new java.awt.event.ActionListener() {
@@ -56,7 +86,7 @@ public class joguin extends javax.swing.JFrame {
             }
         });
 
-        B4.setLabel("5");
+        B4.setText("4");
         B4.setName("B1"); // NOI18N
         B4.setOpaque(true);
         B4.addActionListener(new java.awt.event.ActionListener() {
@@ -65,7 +95,7 @@ public class joguin extends javax.swing.JFrame {
             }
         });
 
-        B5.setLabel("13");
+        B5.setText("5");
         B5.setName("B1"); // NOI18N
         B5.setOpaque(true);
         B5.addActionListener(new java.awt.event.ActionListener() {
@@ -74,7 +104,7 @@ public class joguin extends javax.swing.JFrame {
             }
         });
 
-        B6.setLabel("6");
+        B6.setText("6");
         B6.setName("B1"); // NOI18N
         B6.setOpaque(true);
         B6.addActionListener(new java.awt.event.ActionListener() {
@@ -83,7 +113,7 @@ public class joguin extends javax.swing.JFrame {
             }
         });
 
-        B7.setLabel("2");
+        B7.setText("7");
         B7.setName("B1"); // NOI18N
         B7.setOpaque(true);
         B7.addActionListener(new java.awt.event.ActionListener() {
@@ -92,7 +122,7 @@ public class joguin extends javax.swing.JFrame {
             }
         });
 
-        B8.setLabel("7");
+        B8.setText("8");
         B8.setName("B1"); // NOI18N
         B8.setOpaque(true);
         B8.addActionListener(new java.awt.event.ActionListener() {
@@ -101,7 +131,7 @@ public class joguin extends javax.swing.JFrame {
             }
         });
 
-        B9.setLabel("10");
+        B9.setText("9");
         B9.setName("B1"); // NOI18N
         B9.setOpaque(true);
         B9.addActionListener(new java.awt.event.ActionListener() {
@@ -110,7 +140,7 @@ public class joguin extends javax.swing.JFrame {
             }
         });
 
-        B10.setLabel("15");
+        B10.setText("10");
         B10.setName("B1"); // NOI18N
         B10.setOpaque(true);
         B10.addActionListener(new java.awt.event.ActionListener() {
@@ -119,6 +149,7 @@ public class joguin extends javax.swing.JFrame {
             }
         });
 
+        B11.setText("11");
         B11.setName("B1"); // NOI18N
         B11.setOpaque(true);
         B11.addActionListener(new java.awt.event.ActionListener() {
@@ -127,7 +158,6 @@ public class joguin extends javax.swing.JFrame {
             }
         });
 
-        B12.setLabel("3");
         B12.setName("B1"); // NOI18N
         B12.setOpaque(true);
         B12.addActionListener(new java.awt.event.ActionListener() {
@@ -136,7 +166,7 @@ public class joguin extends javax.swing.JFrame {
             }
         });
 
-        B13.setLabel("11");
+        B13.setText("13");
         B13.setName("B1"); // NOI18N
         B13.setOpaque(true);
         B13.addActionListener(new java.awt.event.ActionListener() {
@@ -145,7 +175,7 @@ public class joguin extends javax.swing.JFrame {
             }
         });
 
-        B14.setLabel("4");
+        B14.setText("14");
         B14.setName("B1"); // NOI18N
         B14.setOpaque(true);
         B14.addActionListener(new java.awt.event.ActionListener() {
@@ -154,7 +184,7 @@ public class joguin extends javax.swing.JFrame {
             }
         });
 
-        B15.setLabel("12");
+        B15.setText("15");
         B15.setName("B1"); // NOI18N
         B15.setOpaque(true);
         B15.addActionListener(new java.awt.event.ActionListener() {
@@ -163,7 +193,7 @@ public class joguin extends javax.swing.JFrame {
             }
         });
 
-        B16.setLabel("8");
+        B16.setText("12");
         B16.setName("B1"); // NOI18N
         B16.setOpaque(true);
         B16.addActionListener(new java.awt.event.ActionListener() {
@@ -172,13 +202,19 @@ public class joguin extends javax.swing.JFrame {
             }
         });
 
+        caixa.setToolTipText("");
+
+        Contador.setText("Jogada Nº");
+
+        Time.setText("Time: 00:00:00");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(21, 21, 21)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(B13, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
@@ -210,13 +246,32 @@ public class joguin extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addComponent(B3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(B4, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(B4, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(caixa)
+                                .addGap(84, 84, 84))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                .addComponent(Time)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addComponent(Contador)
+                        .addGap(34, 34, 34)))
                 .addContainerGap(21, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(15, 15, 15)
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(Contador)
+                            .addComponent(Time))
+                        .addGap(20, 20, 20))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(caixa)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(B1, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(B2, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -240,7 +295,7 @@ public class joguin extends javax.swing.JFrame {
                     .addComponent(B14, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(B15, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(B16, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(15, Short.MAX_VALUE))
+                .addContainerGap(10, Short.MAX_VALUE))
         );
 
         pack();
@@ -248,82 +303,106 @@ public class joguin extends javax.swing.JFrame {
 
     private void B2ActionPerformed(java.awt.event.ActionEvent evt) {                                   
         // TODO add your handling code here:
-        a.movimento(B2, B1, B3, B6);
+        a.movimento(B2, B1, B3, B6,Contador);
+        
+        
     }                                  
 
     private void B6ActionPerformed(java.awt.event.ActionEvent evt) {                                   
         // TODO add your handling code here:
-        a.movimento(B6, B2, B5, B7, B10);
+        a.movimento(B6, B2, B5, B7, B10,Contador);
     }                                  
 
     private void B10ActionPerformed(java.awt.event.ActionEvent evt) {                                    
         // TODO add your handling code here:
-        a.movimento(B10, B6, B9, B11, B14);
+        a.movimento(B10, B6, B9, B11, B14,Contador);
     }                                   
 
     private void B14ActionPerformed(java.awt.event.ActionEvent evt) {                                    
         // TODO add your handling code here:
-        a.movimento(B14, B10, B13, B15);
+        a.movimento(B14, B10, B13, B15,Contador);
     }                                   
 
     private void B1ActionPerformed(java.awt.event.ActionEvent evt) {                                   
         // TODO add your handling code here:
-        a.movimento(B1, B2, B5);
+        a.movimento(B1, B2, B5,Contador);
     }                                  
 
     private void B4ActionPerformed(java.awt.event.ActionEvent evt) {                                   
         // TODO add your handling code here:
-        a.movimento(B4, B3, B8);
+        a.movimento(B4, B3, B8,Contador);
     }                                  
 
     private void B12ActionPerformed(java.awt.event.ActionEvent evt) {                                    
         // TODO add your handling code here:
-        a.movimento(B12, B8, B11, B16);
+        a.movimento(B12, B8, B11, B16,Contador);
     }                                   
 
     private void B3ActionPerformed(java.awt.event.ActionEvent evt) {                                   
         // TODO add your handling code here:
-        a.movimento(B3, B2, B4, B7);
+        a.movimento(B3, B2, B4, B7,Contador);
     }                                  
 
     private void B15ActionPerformed(java.awt.event.ActionEvent evt) {                                    
         // TODO add your handling code here:
-        a.movimento(B15, B11, B14, B16);
+        a.movimento(B15, B11, B14, B16,Contador);
     }                                   
 
     private void B16ActionPerformed(java.awt.event.ActionEvent evt) {                                    
         // TODO add your handling code here:
-        a.movimento(B16, B12, B15);
+        a.movimento(B16, B12, B15,Contador);
+        if(B1.getText().equals("1")&& B4.getText().equals("4")&& B13.getText().equals("13")){
+            posicao.add(B1.getText());
+            posicao.add(B2.getText());
+            posicao.add(B3.getText());
+            posicao.add(B4.getText());
+            posicao.add(B5.getText());
+            posicao.add(B6.getText());
+            posicao.add(B7.getText());
+            posicao.add(B8.getText());
+            posicao.add(B9.getText());
+            posicao.add(B10.getText());
+            posicao.add(B11.getText());
+            posicao.add(B12.getText());
+            posicao.add(B13.getText());
+            posicao.add(B14.getText());
+            posicao.add(B15.getText());
+            posicao.add(B16.getText());
+        }
+        a.vitoria(posicao,caixa);
+        if(caixa.getText().equals("VOCE VENCEU!")){
+        a.embaralhar(posicao,B1,B2,B3,B4,B5,B6,B7,B8,B9,B10,B11,B12,B13,B14,B15,B16,caixa);
+        }
     }                                   
 
     private void B13ActionPerformed(java.awt.event.ActionEvent evt) {                                    
         // TODO add your handling code here:
-        a.movimento(B13, B9, B14);
+        a.movimento(B13, B9, B14,Contador);
     }                                   
 
     private void B9ActionPerformed(java.awt.event.ActionEvent evt) {                                   
         // TODO add your handling code here:
-        a.movimento(B9, B5, B10, B13);
+        a.movimento(B9, B5, B10, B13,Contador);
     }                                  
 
     private void B11ActionPerformed(java.awt.event.ActionEvent evt) {                                    
         // TODO add your handling code here:
-        a.movimento(B11, B7, B10, B12, B15);
+        a.movimento(B11, B7, B10, B12, B15,Contador);
     }                                   
 
     private void B8ActionPerformed(java.awt.event.ActionEvent evt) {                                   
         // TODO add your handling code here:
-        a.movimento(B8, B4, B7, B12);
+        a.movimento(B8, B4, B7, B12,Contador);
     }                                  
 
     private void B7ActionPerformed(java.awt.event.ActionEvent evt) {                                   
         // TODO add your handling code here:
-        a.movimento(B7, B3, B6, B8, B11);
+        a.movimento(B7, B3, B6, B8, B11,Contador);
     }                                  
 
     private void B5ActionPerformed(java.awt.event.ActionEvent evt) {                                   
         // TODO add your handling code here:
-        a.movimento(B5, B1, B6, B9);
+        a.movimento(B5, B1, B6, B9,Contador);
     }                                  
 
     /**
@@ -337,7 +416,7 @@ public class joguin extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new joguin().setVisible(true);
+                new jogo().setVisible(true);
             }
         });
     }
@@ -359,5 +438,8 @@ public class joguin extends javax.swing.JFrame {
     private javax.swing.JButton B7;
     private javax.swing.JButton B8;
     private javax.swing.JButton B9;
+    private javax.swing.JLabel Contador;
+    private javax.swing.JLabel Time;
+    private javax.swing.JLabel caixa;
     // End of variables declaration                   
 }
