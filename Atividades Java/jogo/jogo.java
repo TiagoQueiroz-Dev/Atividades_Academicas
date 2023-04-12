@@ -1,35 +1,15 @@
-/*
-observaçoes do codigo
-
-1º organizar o embaralho:
-ao embaralhar o jogo embaralha de qualquer jeito fazendo com que algumas vezes seja impossivel de ganhar o jogo
-
-2º Vitoria:
-a vitoria ela so ocorre na primeira vez, caso o usuario coloque p jogar novamente e coso citado a cima ao ocorra ele n fala q o jogador venceu ou sej aso funciona uma vez
-OBS: ja coloquei laço de repetiça e nao funcionou
-
-3º Tempo:
-falta colocar o temp p contar durante a jogada
-
-4º Organizaçao:
-falta nomear as variaveis de forma legivel a outr programadores e comentar o codigo
-*/
 package jogo;
 
 import java.util.ArrayList;
-import javax.swing.JOptionPane;
 
 public class jogo extends javax.swing.JFrame {
+    
     Codigo1 a = new Codigo1();
-    public ArrayList<String> posicao = new ArrayList();
-    int teste = 1;
+    boolean teste = false;
     
-    
-    
-
-    public jogo() {
+    public jogo(){
         initComponents();
-        //a.time(Time);
+        
     }
 
     @SuppressWarnings("unchecked")
@@ -52,8 +32,8 @@ public class jogo extends javax.swing.JFrame {
         B14 = new javax.swing.JButton();
         B15 = new javax.swing.JButton();
         B16 = new javax.swing.JButton();
-        caixa = new javax.swing.JLabel();
-        Contador = new javax.swing.JLabel();
+        Caixa_Vitoria = new javax.swing.JLabel();
+        Numero_Jogadas = new javax.swing.JLabel();
         Time = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -202,9 +182,9 @@ public class jogo extends javax.swing.JFrame {
             }
         });
 
-        caixa.setToolTipText("");
+        Caixa_Vitoria.setToolTipText("");
 
-        Contador.setText("Jogada Nº");
+        Numero_Jogadas.setText("Jogada Nº");
 
         Time.setText("Time: 00:00:00");
 
@@ -250,12 +230,12 @@ public class jogo extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(caixa)
+                                .addComponent(Caixa_Vitoria)
                                 .addGap(84, 84, 84))
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                                 .addComponent(Time)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                        .addComponent(Contador)
+                        .addComponent(Numero_Jogadas)
                         .addGap(34, 34, 34)))
                 .addContainerGap(21, Short.MAX_VALUE))
         );
@@ -266,11 +246,11 @@ public class jogo extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(Contador)
+                            .addComponent(Numero_Jogadas)
                             .addComponent(Time))
                         .addGap(20, 20, 20))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(caixa)
+                        .addComponent(Caixa_Vitoria)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(B1, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -302,56 +282,108 @@ public class jogo extends javax.swing.JFrame {
     }// </editor-fold>                        
 
     private void B2ActionPerformed(java.awt.event.ActionEvent evt) {                                   
-        // TODO add your handling code here:
-        a.movimento(B2, B1, B3, B6,Contador);
         
+        a.movimento(B2, B1, B3, B6,Numero_Jogadas);
         
+        if(!teste){
+            Teste thread = new Teste(Time,teste);
+            teste = true;
+        }
     }                                  
 
     private void B6ActionPerformed(java.awt.event.ActionEvent evt) {                                   
-        // TODO add your handling code here:
-        a.movimento(B6, B2, B5, B7, B10,Contador);
+        
+        a.movimento(B6, B2, B5, B7, B10,Numero_Jogadas);
+        
+        if(!teste){
+            Teste thread = new Teste(Time,teste);
+            teste = true;
+        }
     }                                  
 
     private void B10ActionPerformed(java.awt.event.ActionEvent evt) {                                    
-        // TODO add your handling code here:
-        a.movimento(B10, B6, B9, B11, B14,Contador);
+        
+        a.movimento(B10, B6, B9, B11, B14,Numero_Jogadas);
+        
+        if(!teste){
+            Teste thread = new Teste(Time,teste);
+            teste = true;
+        }
     }                                   
 
     private void B14ActionPerformed(java.awt.event.ActionEvent evt) {                                    
-        // TODO add your handling code here:
-        a.movimento(B14, B10, B13, B15,Contador);
+        
+        a.movimento(B14, B10, B13, B15,Numero_Jogadas);
+        
+        if(!teste){
+            Teste thread = new Teste(Time,teste);
+            teste = true;
+        }
     }                                   
 
     private void B1ActionPerformed(java.awt.event.ActionEvent evt) {                                   
-        // TODO add your handling code here:
-        a.movimento(B1, B2, B5,Contador);
+        
+        a.movimento(B1, B2, B5,Numero_Jogadas);
+        
+        if(!teste){
+            Teste thread = new Teste(Time,teste);
+            teste = true;
+        }
     }                                  
 
     private void B4ActionPerformed(java.awt.event.ActionEvent evt) {                                   
-        // TODO add your handling code here:
-        a.movimento(B4, B3, B8,Contador);
+        
+        a.movimento(B4, B3, B8,Numero_Jogadas);
+        
+        if(!teste){
+            Teste thread = new Teste(Time,teste);
+            teste = true;
+        }
     }                                  
 
     private void B12ActionPerformed(java.awt.event.ActionEvent evt) {                                    
-        // TODO add your handling code here:
-        a.movimento(B12, B8, B11, B16,Contador);
+        
+        a.movimento(B12, B8, B11, B16,Numero_Jogadas);
+        
+        if(!teste){
+            Teste thread = new Teste(Time,teste);
+            teste = true;
+        }
     }                                   
 
     private void B3ActionPerformed(java.awt.event.ActionEvent evt) {                                   
-        // TODO add your handling code here:
-        a.movimento(B3, B2, B4, B7,Contador);
+        
+        a.movimento(B3, B2, B4, B7,Numero_Jogadas);
+        
+        if(!teste){
+            Teste thread = new Teste(Time,teste);
+            teste = true;
+        }
     }                                  
 
     private void B15ActionPerformed(java.awt.event.ActionEvent evt) {                                    
-        // TODO add your handling code here:
-        a.movimento(B15, B11, B14, B16,Contador);
+        
+        a.movimento(B15, B11, B14, B16,Numero_Jogadas);
+        
+        if(!teste){
+            Teste thread = new Teste(Time,teste);
+            teste = true;
+        }
     }                                   
 
     private void B16ActionPerformed(java.awt.event.ActionEvent evt) {                                    
-        // TODO add your handling code here:
-        a.movimento(B16, B12, B15,Contador);
-        if(B1.getText().equals("1")&& B4.getText().equals("4")&& B13.getText().equals("13")){
+        
+        ArrayList<String> posicao = new ArrayList();
+        
+        a.movimento(B16, B12, B15,Numero_Jogadas);
+        
+        if(!teste){
+            Teste thread = new Teste(Time,teste);
+            teste = true;
+        }
+        
+        if(B1.getText().equals("1")&& B4.getText().equals("4")&& B13.getText().equals("13"))
+        {
             posicao.add(B1.getText());
             posicao.add(B2.getText());
             posicao.add(B3.getText());
@@ -369,51 +401,81 @@ public class jogo extends javax.swing.JFrame {
             posicao.add(B15.getText());
             posicao.add(B16.getText());
         }
-        a.vitoria(posicao,caixa);
-        if(caixa.getText().equals("VOCE VENCEU!")){
-        a.embaralhar(posicao,B1,B2,B3,B4,B5,B6,B7,B8,B9,B10,B11,B12,B13,B14,B15,B16,caixa);
+        
+        a.vitoria(posicao,Caixa_Vitoria);
+        
+        if(Caixa_Vitoria.getText().equals("VOCE VENCEU!"))
+        {
+            a.embaralhar(posicao,B1,B2,B3,B4,B5,B6,B7,B8,B9,B10,B11,B12,B13,B14,B15,B16,Caixa_Vitoria);
+            teste = false;
+            //Time.setText("Time: 00:00:00");
+            Teste thread = new Teste(Time,teste);
         }
     }                                   
 
     private void B13ActionPerformed(java.awt.event.ActionEvent evt) {                                    
-        // TODO add your handling code here:
-        a.movimento(B13, B9, B14,Contador);
+        
+        a.movimento(B13, B9, B14,Numero_Jogadas);
+        
+        if(!teste){
+            Teste thread = new Teste(Time,teste);
+            teste = true;
+        }
     }                                   
 
     private void B9ActionPerformed(java.awt.event.ActionEvent evt) {                                   
-        // TODO add your handling code here:
-        a.movimento(B9, B5, B10, B13,Contador);
+        
+        a.movimento(B9, B5, B10, B13,Numero_Jogadas);
+        
+        if(!teste){
+            Teste thread = new Teste(Time,teste);
+            teste = true;
+        }
     }                                  
 
     private void B11ActionPerformed(java.awt.event.ActionEvent evt) {                                    
-        // TODO add your handling code here:
-        a.movimento(B11, B7, B10, B12, B15,Contador);
+        
+        a.movimento(B11, B7, B10, B12, B15,Numero_Jogadas);
+        
+        if(!teste){
+            Teste thread = new Teste(Time,teste);
+            teste = true;
+        }
     }                                   
 
     private void B8ActionPerformed(java.awt.event.ActionEvent evt) {                                   
-        // TODO add your handling code here:
-        a.movimento(B8, B4, B7, B12,Contador);
+        
+        a.movimento(B8, B4, B7, B12,Numero_Jogadas);
+        
+        if(!teste){
+            Teste thread = new Teste(Time,teste);
+            teste = true;
+        }
     }                                  
 
     private void B7ActionPerformed(java.awt.event.ActionEvent evt) {                                   
-        // TODO add your handling code here:
-        a.movimento(B7, B3, B6, B8, B11,Contador);
+        
+        a.movimento(B7, B3, B6, B8, B11,Numero_Jogadas);
+        
+        if(!teste){
+            Teste thread = new Teste(Time,teste);
+            teste = true;
+        }
     }                                  
 
     private void B5ActionPerformed(java.awt.event.ActionEvent evt) {                                   
-        // TODO add your handling code here:
-        a.movimento(B5, B1, B6, B9,Contador);
+        
+        a.movimento(B5, B1, B6, B9,Numero_Jogadas);
+        
+        if(!teste){
+            Teste thread = new Teste(Time,teste);
+            teste = true;
+        }
     }                                  
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-      
-        //</editor-fold>
-
-        /* Create and display the form */
+        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new jogo().setVisible(true);
@@ -438,8 +500,8 @@ public class jogo extends javax.swing.JFrame {
     private javax.swing.JButton B7;
     private javax.swing.JButton B8;
     private javax.swing.JButton B9;
-    private javax.swing.JLabel Contador;
+    private javax.swing.JLabel Caixa_Vitoria;
+    private javax.swing.JLabel Numero_Jogadas;
     private javax.swing.JLabel Time;
-    private javax.swing.JLabel caixa;
     // End of variables declaration                   
 }
