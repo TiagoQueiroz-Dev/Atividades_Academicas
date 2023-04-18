@@ -7,34 +7,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="senai, Alunos, Curso, Cimatec, Curso DS, Curso técnico, html">
-    <link rel="stylesheet" href="../Atividades css/senai.css">
+    <link rel="stylesheet" href="../Atividades css/senai2.css">
+    <script src="js/program.js"></script>
     <title>Segunda Página Web</title>
 </head>
 
 <body>
     <header>
         <div class="logo-principal">
-            <a href="https://www.tecnicosenai.com.br/" target="_blank"><img src="img/SENAI+CIMATEC+_ALTA.png"
-                    width="20%" alt="Logo do Senai Cimatec"></a>
+            <a class="logo" href="https://www.tecnicosenai.com.br/" target="_blank"><img src="img/SENAI+CIMATEC+_ALTA.png" alt="Logo do Senai Cimatec"></a>
         </div>
 
-        <h1 style="text-align: center;">Hello World</h1>
+        <h1>SENAI CIMATEC</h1>
+        
 
-        <form action="#" method="get">
-            <input type="text" placeholder="Pesquisar" id="pesquisar">
-            <input type="submit" value="Buscar">
-        </form>
+        <div class="linha"></div>
+        
         <nav>
-            <ol>
+            <ul>
                 <li><a href="http://">Inicio</a></li>
                 <li><a href="http://">Quem Somos</a></li>
                 <li><a href="http://">Serviços</a></li>
                 <li><a href="http://">Contatos</a></li>
-            </ol>
+            </ul>
         </nav>
-        <hr>
+        <div class="linha"></div>
+        
     </header>
-
+    <section>
+        <img class="banner" src="https://doity.com.br/media/doity/resized/900x338_evento-6287-banner.jpeg" alt="Banner-Principal">
+    </section>
     <section>
         <h2>Programação WEB</h2>
 
@@ -74,7 +76,7 @@
 
     <!-- Formulário -->
     <h1>Formulário</h1>
-    <form action="#" method="post">
+    <form name="formuser" action="#" method="post">
         <fieldset>
             <legend>Formulário de contato</legend>
             <fieldset>
@@ -90,7 +92,7 @@
                     </tr>
                     <tr>
                         <td><label for="senha">Senha:</label></td>
-                        <td><input type="password" id="senha" placeholder="Digite sua senha"></td>
+                        <td><input type="password" name="senha" id="senha" placeholder="Digite sua senha"></td>
                     </tr>
                     <tr>
                         <td><label for="cpf">CPF:</label></td>
