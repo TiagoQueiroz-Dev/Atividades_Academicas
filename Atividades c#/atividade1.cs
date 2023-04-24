@@ -4,14 +4,13 @@ class program
     static void Main()
     {
         
-        int Power_Ranger,numero1;
+        int Power_Ranger;
 
         Power_Ranger = 10;
-        numero1 = 20;
-
-        Power_Ranger = Power_Ranger + numero1;
-
-        Console.WriteLine(Power_Ranger);
+        if(Power_Ranger == 10)
+        {
+            Console.WriteLine(Power_Ranger);
+        }
     }
 }
 

@@ -1,0 +1,20 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #7e9ef8;
+}
+h1{
+    position: absolute;
+    left: 42%;
+    top: 20%;
+    font-size: 72px;
+}
+.usuario{
+    position: absolute;
+    left: 41%;
+    top: 47%;
+}
+.senha{
+    position: absolute;
+    left: 41%;
+    top: 55%;
+}
