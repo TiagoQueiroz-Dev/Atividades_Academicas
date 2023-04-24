@@ -1,0 +1,18 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #faa72c;
+    background-color: #001F3D;
+}
+img{
+    width: 80px;
+}
+.cab{
+    text-align: center;
+}
+.principal{
+    padding: 15px;
+}
+footer{
+    text-align: center;
+}
