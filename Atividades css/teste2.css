@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7e9ef8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+fieldset{
+    background-color: white;
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 180px 170px 180px 170px;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    box-shadow: 0 3px #000;
+}
+h1{
+    position: absolute;
+    left: 32%;
+    top: -2%;
+}
+.caixa{
+    font-size: 18px;
+    color: black;
+}
+.btn{
+    position: absolute;
+    left: 35%;
+    top: 85%;
+    padding: 10px 30px 10px 30px;
+    background: #7e9ef8;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 9px;
+    font-weight: bolder;
+}
+.caixa_usuario{
+    position: absolute;
+    top: -30%;
+    left: 108%;
+    border: 1px solid;
+    padding: 10px 10px 10px 10px;
+    background: #7e9ef8;
+    font-size: 15px;
+    border-radius: 12px;
+    font-weight: bolder;
+}
+.caixa_senha{
+    position: absolute;
+    top: -30%;
+    left: 120%;
+    border: 1px solid;
+    padding: 10px 10px 10px 12px;
+    background: #7e9ef8;
+    font-size: 15px;
+    border-radius: 12px;
+    font-weight: bolder;
+}
+.usuario{
+    position: absolute;
+    left: 8%;
+    top: 35%;
+}
+.senha{
+    position: absolute;
+    left: 8%;
+    top: 50%;
+}
+#teste{
+    position: absolute;
+    left: 45%;
+    top: 65%;
+}
