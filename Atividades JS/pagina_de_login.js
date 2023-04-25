@@ -6,7 +6,7 @@ function teste(){
     if(user == "Tiago" && pass == "2468"){
         document.getElementById("teste").innerHTML = "parabens voce logou";
     }else if(user == "" || pass == ""){
-        document.getElementById("teste").innerHTML = "Um dos Campos nao foi preenchido";
+        document.getElementById("teste").innerHTML = "Um campo nao foi preenchido";
     } else{
         document.getElementById("teste").innerHTML = "login ou senha incorretos";
     }

@@ -11,7 +11,7 @@ fieldset{
     background-color: white;
     border: 1px solid;
     border-radius: 12px;
-    padding: 180px 170px 180px 170px;
+    padding: 200px 190px 200px 190px;
     position: absolute;
     left: 35%;
     top: 20%;
@@ -71,6 +71,6 @@ h1{
 }
 #teste{
     position: absolute;
-    left: 45%;
+    left: 15%;
     top: 65%;
 }
