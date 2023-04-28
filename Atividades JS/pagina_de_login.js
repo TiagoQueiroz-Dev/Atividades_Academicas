@@ -4,7 +4,8 @@ function teste(){
     var pass = document.getElementById("pass").value;
 
     if(user == "Tiago" && pass == "2468"){
-        document.getElementById("teste").innerHTML = "parabens voce logou";
+        //document.getElementById("teste").innerHTML = "parabens voce logou";
+        window.location.href = "../Atividades HTML/livros_css.html"
     }else if(user == "" || pass == ""){
         document.getElementById("teste").innerHTML = "Um campo nao foi preenchido";
     } else{

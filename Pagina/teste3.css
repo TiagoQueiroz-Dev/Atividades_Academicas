@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7e9ef8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+fieldset{
+    background-color: white;
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 10px 40px 30px 50px;
+    transform: translate(5%,25%);
+    box-shadow: 0 10px 15px 1px  #000;
+}
+.titulo{
+    transform: translate(9%,-80%);
+    font-size: 70px;
+    font-weight: bolder;
+    color: #7e9ef8;
+}
+.btn{
+    transform: translate(140%,50%);
+    padding: 10px 30px 10px 30px;
+    background: #7e9ef8;
+    font-size: 18px;
+    border: 2px solid #1b57fd;
+    border-radius: 9px;
+    font-weight: bolder;
+    color: #1b57fd;
+}
+.caixa_usuario{
+    border: 1px solid #1b57fd;
+    padding: 10px 5px 10px 35px;
+    background: #7e9ef8;
+    font-size: 15px;
+    border-radius: 12px;
+    transform: translate(7%,-220%);
+    
+}
+.caixa_senha{
+    border: 1px solid #1b57fd;
+    padding: 10px 5px 10px 35px;
+    background: #7e9ef8;
+    font-size: 15px;
+    border-radius: 12px;
+    transform: translate(7%,-170%);
+    
+}
+#teste{
+    color: red;
+    font-size: 10px;
+    transform: translate(20%,-300%);
+    padding: 9px;
+}
+.btn2{
+    transform: translate(-90%,50%);
+    padding: 10px 30px 10px 30px;
+    background: #7e9ef8;
+    font-size: 18px;
+    border: 2px solid #1b57fd;
+    border-radius: 9px;
+    font-weight: bolder;
+    color: #1b57fd;
+}
+.btn3{
+    transform: translate(60%,50%);
+    padding: 10px 30px 10px 30px;
+    background: #7e9ef8;
+    font-size: 18px;
+    border: 2px solid #1b57fd;
+    border-radius: 9px;
+    font-weight: bolder;
+    color: #1b57fd;
+}
+.caixa_usuario2{
+    border: 1px solid #1b57fd;
+    padding: 10px 5px 10px 35px;
+    background: #7e9ef8;
+    font-size: 15px;
+    border-radius: 12px;
+    transform: translate(25%,-190%);
+    
+}
+.caixa_senha2{
+    border: 1px solid #1b57fd;
+    padding: 10px 5px 10px 35px;
+    background: #7e9ef8;
+    font-size: 15px;
+    border-radius: 12px;
+    transform: translate(25%,-140%);
+    
+}
+.titulo2{
+    transform: translate(-1%,-80%);
+    font-size: 70px;
+    font-weight: bolder;
+    color: #7e9ef8;
+}
+input::-webkit-input-placeholder {
+    color: #1b57fd;
+  }
