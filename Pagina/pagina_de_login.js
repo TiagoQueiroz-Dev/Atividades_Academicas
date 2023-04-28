@@ -1,15 +1,13 @@
 
 var usuario;
 var senha;
-var user;
-var pass;
 
 function login(){
 
-    user = document.getElementById("user").value;
-    pass = document.getElementById("pass").value;
+    var user = document.getElementById("user").value;
+    var pass = document.getElementById("pass").value;
 
-    if(user == usuario && pass == senha){
+    if(user == "admin" && pass == "admin"){
         //document.getElementById("teste").innerHTML = "parabens voce logou";
         window.location.href = "../Atividades HTML/livros_css.html"
     }else if(user == "" || pass == ""){
@@ -17,10 +15,6 @@ function login(){
     } else{
         document.getElementById("teste").innerHTML = "login ou senha incorretos";
     }
-}
-function testando(){
-alert("Usuário" + user)
-alert("senha" + pass)
 }
 function cadastro(){
     
