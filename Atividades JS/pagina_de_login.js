@@ -11,3 +11,4 @@ function teste(){
     } else{
         document.getElementById("teste").innerHTML = "login ou senha incorretos";
     }
+}

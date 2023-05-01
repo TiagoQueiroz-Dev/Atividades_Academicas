@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Atividades css/calculadora.css">
+    <script src="../Atividades JS/cauculadora.js"></script>
     <title>Cauculadora</title>
 </head>
 <body>
-    <form action="../Atividades HTML/About_Me.html">
+    <form  action="#" onsubmit="return teste()">
         <fieldset>
             <table>
                 <tr>
@@ -17,12 +19,14 @@
                     <td><input type="number" id="num2"></td>
                     <td><label for="operador">Operador:</label></td>
                     <td><select name="operador" id="operador">
+                        <option value=""></option>
                         <option value="*">Multiplicar</option>
                         <option value="-">Subtrair</option>
                         <option value="+">Somar</option>
                         <option value="/">Dividir</option>
                     </select></td>
                     <td><input type="submit" value="Caucular"></td>
+                    <td><p id = "resultado"></p></td>
                 </tr>
             </table>
         </fieldset>
