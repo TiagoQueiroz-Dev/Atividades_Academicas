@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Atividades css/calculadora.css">
-    <script src="../Atividades JS/cauculadora.js"></script>
-    <title>Cauculadora</title>
+    <script src="../Atividades JS/calculadora.js"></script>
+    <title>Calculadora</title>
 </head>
 <body>
     <form  action="#" onsubmit="return teste()">
@@ -14,9 +14,9 @@
             <table>
                 <tr>
                     <td><label for="num1">Primeiro numero:</label></td>
-                    <td><input type="number" id="num1"></td>
+                    <td><input type="text" id="num1"></td>
                     <td><label for="num2">Segundo numero:</label></td>
-                    <td><input type="number" id="num2"></td>
+                    <td><input type="text" id="num2"></td>
                     <td><label for="operador">Operador:</label></td>
                     <td><select name="operador" id="operador">
                         <option value=""></option>
@@ -25,7 +25,7 @@
                         <option value="+">Somar</option>
                         <option value="/">Dividir</option>
                     </select></td>
-                    <td><input type="submit" value="Caucular"></td>
+                    <td><input type="submit" value="Calcular"></td>
                     <td><p id = "resultado"></p></td>
                 </tr>
             </table>
