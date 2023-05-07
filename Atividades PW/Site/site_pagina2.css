@@ -68,5 +68,13 @@ fieldset{
     background-color: #faa72c;
     border-radius: 10px;
 }
+.particao{
+    display: flex;
+
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+}
 
 
