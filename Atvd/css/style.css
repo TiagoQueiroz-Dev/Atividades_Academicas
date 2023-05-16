@@ -1,0 +1,40 @@
+.logo img{
+    width: 20%;
+}
+.banner{    
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(48, 45, 255);
+}
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: large;
+}
+nav ul{
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+}
+nav a :hover{
+    text-decoration: none;
+    padding: 50px;
+    font-size: large;
+    background-color: blue;
+}
+nav ul li{
+    text-decoration: none;
+    margin: 15px 50px 15px 50px;
+    color: rgb(9, 117, 45);
+}
+.linha{
+    border: 1px solid blue;
+}
+p{
+    color: blue;
+}
