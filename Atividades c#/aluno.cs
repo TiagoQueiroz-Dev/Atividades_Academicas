@@ -1,14 +1,9 @@
 using System;
 class aula6{
     static void Main(){
-        int abacate = 2;
-        int pera = 3;
+        int numero1,numero2;
 
-        if(pera < abacate){
-            Console.WriteLine("pera é maior");
-        }else{
-            Console.WriteLine("abacate é maior");
-        }
-
+        Console.WriteLine("digite um numero:");
+        numero1 = int.Parse(Console.ReadLine());
     }
 }
