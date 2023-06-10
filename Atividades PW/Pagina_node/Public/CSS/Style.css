@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body{
+    background-color: #001F3D;
+}
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #D48E24;
+    font-size: 14px;
+}
+h1{
+    margin-left: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #D48E24;
+}
+h2{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #D48E24;
+}
+p{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #D48E24;
+}
+button{
+    width: 70px;
+    margin-left: 450px;
+    background-color: #D48E24;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+legend{
+    color: #D48E24;
+    margin-left: 45%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+td{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #D48E24;
+}
+.teste{
+    margin-left: 30%;
+}
+.a{
+    margin-left: 33.5%;
+}
