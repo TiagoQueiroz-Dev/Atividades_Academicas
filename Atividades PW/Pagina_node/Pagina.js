@@ -10,7 +10,7 @@ app.use(express.static('Public'))
 
 
 app.get('/', function(req,res){
-    res.send("teste")
+    res.send("naao sei")
 })
 app.get('/sobreNos',function(req,res){
     res.render('home')

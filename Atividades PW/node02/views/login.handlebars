@@ -1,0 +1,18 @@
+<head>
+    <link rel="stylesheet" href="/CSS/Style.css">
+    <script src="/JS/action.js"></script>
+</head>
+<body>
+    <form action="http://localhost:3020/rei" method="get" onsubmit="return validar()">
+        <fieldset>
+            <p id="log">Login</p>
+            <div>
+                <input type="text" id="user" name="usuario" placeholder="Usuario">
+                <input type="password" id="pass" placeholder="Senha">
+                <input type="submit"   value="Login">
+                <input type="button" onclick="window.location.href = 'http://localhost:3020/cadastro'" value="Cadastrar">
+            </div>
+            <p id="erro"></p>
+        </fieldset>
+    </form>
+</body>
