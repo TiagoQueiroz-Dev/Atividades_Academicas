@@ -3,7 +3,7 @@
     <script src="/JS/action.js"></script>
 </head>
 <body>
-    <form action="http://localhost:3020" method="get" onsubmit="return cadastro()">
+    <form action="http://localhost:3020" method="post" onsubmit="return cadastro()">
         <fieldset>
             <p id="log">Cadastro</p>
             <div>
@@ -13,6 +13,11 @@
                 <input type="button" onclick="window.location.href = 'http://localhost:3020'" value="Voltar">
             </div>
             <p id="erro"></p>
+            <p>alaa</p>
+            {{#each cadastros}}
+                <p>{{nome}}</p>
+                <p>{{senha}}</p>
+            {{/each}}
         </fieldset>
     </form>
 </body>

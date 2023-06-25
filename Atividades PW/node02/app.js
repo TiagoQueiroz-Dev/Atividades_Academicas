@@ -10,22 +10,39 @@ ex.set('views', './views');
 ex.use(express.static('Public'))
 ex.use(bp.urlencoded({extended: false}))
 ex.use(bp.json())
-var usuario;
-var senha;
 
+var cadastros = []
+var usuario
+var senha
+
+// ex.post('/',function(req,res){
+//     res.render('login')
+// })
 ex.get('/',function(req,res){
     res.render('login')
-})
-ex.get('/rei',function(req,res){
-    res.send('usuario: ' + usuario)
-})
-ex.get('/cadastro',function(req,res){
-    res.render('cadastro')
-
-    senha = req.body.senha;
-    usuario = req.body.usuario;
 
 })
+ex.post('/',function(req,res){
+    usuario = req.body.usuario
+    senha = req.body.senha
+    
+    cast = {
+        "nome":usuario,
+        "senha":senha
+    }
+    cadastros.push(cast)
+   // res.render('imprimir',{cadastros})
+   res.render('/rei',{cadastros})
+    
+})
+
+ ex.post('/rei',function(req,res){
+    res.render('imprimir',{cadastros})
+ })
+
+// ex.get('/cadastro',function(req,res){
+//     res.render('cadastro')
+// })
 
 
 ex.listen(3020,function(){
