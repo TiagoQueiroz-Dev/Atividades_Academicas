@@ -1,3 +1,32 @@
 <body>
     <h1>cadastro</h1>
+    <div>
+        <form action="/" method="post">
+            <fieldset>
+                <table>
+                    <tr>
+                        <td><input type="text" name="nome" placeholder="Nome"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="tel" name="telefone" placeholder="Telefone"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="horario" placeholder="Horario"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" name="email" placeholder="Email"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" placeholder="enviar"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <fieldset>
+            {{#each cadastro}}
+            {{}}
+        </fieldset>
+    </div>
 </body>
