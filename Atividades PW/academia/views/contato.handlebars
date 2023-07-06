@@ -1,3 +1,27 @@
+<head>
+    <script src="/JS/validar.js"></script>
+</head>
 <body>
-    <h1>contato</h1>
+    <h1>contate-nos</h1>
+    <div>
+        <form action="#" method="post">
+            <fieldset>
+                <table>
+                    <tr>
+                        <td><input type="text" id="nome" placeholder="Nome"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="tel" id="telefone" placeholder="Telefone"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" id="email" placeholder="Email"></td>
+                    </tr>
+                    <tr><td><textarea name="Descrição" placeholder="Descrição" id="descricao" cols="30" rows="4"></textarea></td></tr>
+                    <tr>
+                        <td><input type="submit" onclick="validar()" placeholder="enviar"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
 </body>

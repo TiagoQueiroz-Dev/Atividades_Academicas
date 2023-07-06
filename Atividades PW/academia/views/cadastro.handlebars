@@ -1,3 +1,6 @@
+<head>
+    <link rel="stylesheet" href="/CSS/cadastro.css">
+</head>
 <body>
     <h1>cadastro</h1>
     <div>
@@ -23,14 +26,16 @@
             </fieldset>
         </form>
     </div>
-    <div>
-        <fieldset>
-            {{#each cadastro}}
-            <p>Nome: {{nome}}</p>
-            <p>Telefone: {{telefone}}</p>
-            <p>Horario: {{horario}}</p>
-            <p>Email: {{email}}</p>
-            {{/each}}
-        </fieldset>
+    <div class="teste">
+        {{#each cadastro}}
+        <div>
+            <fieldset>
+                <p>Nome: {{nome}}</p>
+                <p>Telefone: {{telefone}}</p>
+                <p>Horario: {{horario}}</p>
+                <p>Email: {{email}}</p>
+            </fieldset>
+        </div>
+        {{/each}}
     </div>
 </body>
