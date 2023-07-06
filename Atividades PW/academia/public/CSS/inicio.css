@@ -5,6 +5,7 @@
 }
 .teste{
     display: flex;
+    flex-wrap: wrap;
 }
 img{
     width: 600px;
@@ -75,4 +76,19 @@ form{
     margin: 0 10px 0 10px;
     font-size: calc(15pt + 1vw);
     text-align: center;
+}
+.op{
+    
+}
+.field{
+    border-radius: 20px;
+    background-color: rgb(255, 230, 0);
+}
+.op2{
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: rgb(233, 215, 50);
+}
+td{
+    padding: 5px;
 }

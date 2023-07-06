@@ -19,7 +19,7 @@ ex.get("/contato",function(req,res){
     res.render('contato')
 })
 ex.post("/contato",function(req,res){
-    res.render('contato')
+    res.render('inicio')
 })
 ex.get("/horarios",function(req,res){
     res.render('horarios')
