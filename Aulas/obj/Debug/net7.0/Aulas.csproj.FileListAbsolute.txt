@@ -1,0 +1,15 @@
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\Aulas\bin\Debug\net7.0\Aulas.exe
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\Aulas\bin\Debug\net7.0\Aulas.deps.json
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\Aulas\bin\Debug\net7.0\Aulas.runtimeconfig.json
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\Aulas\bin\Debug\net7.0\Aulas.dll
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\Aulas\bin\Debug\net7.0\Aulas.pdb
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\Aulas\obj\Debug\net7.0\Aulas.csproj.AssemblyReference.cache
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\Aulas\obj\Debug\net7.0\Aulas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\Aulas\obj\Debug\net7.0\Aulas.AssemblyInfoInputs.cache
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\Aulas\obj\Debug\net7.0\Aulas.AssemblyInfo.cs
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\Aulas\obj\Debug\net7.0\Aulas.csproj.CoreCompileInputs.cache
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\Aulas\obj\Debug\net7.0\Aulas.dll
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\Aulas\obj\Debug\net7.0\refint\Aulas.dll
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\Aulas\obj\Debug\net7.0\Aulas.pdb
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\Aulas\obj\Debug\net7.0\Aulas.genruntimeconfig.cache
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\Aulas\obj\Debug\net7.0\ref\Aulas.dll
