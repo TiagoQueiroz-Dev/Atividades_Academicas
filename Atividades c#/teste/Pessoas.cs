@@ -45,8 +45,7 @@ class Evento{
     public Pessoa lote
     {
         get { return recebePessoa; }
-        set 
-        { vagas.Add(value); }
+        set { vagas.Add(value); }
     }
 }
 
@@ -56,7 +55,7 @@ class obterValores{
 //eu preciso criar 
    // public List<Pessoa> pessoas = new List<Pessoa>();
     public List<Evento> eventos = new List<Evento>();
-    Evento teste = new Evento();
+    //Evento teste = new Evento();
 
     
     
@@ -65,7 +64,7 @@ class obterValores{
         Pessoa pessoaCadastro = new Pessoa();
         //List<Pessoa> pessoas = new List<Pessoa>();
         int i = 0;
-        //int escolha;
+        int escolha;
         
         Console.WriteLine("Digite seu nome");
         pessoaCadastro.nome = Console.ReadLine();
@@ -80,13 +79,16 @@ class obterValores{
         Console.WriteLine("Qual evento deseja participar");
         foreach (Evento item in eventos)
         {
-            Console.WriteLine(i);
-            Console.WriteLine(item.nome);
-            Console.WriteLine(item.preco);
+            Console.WriteLine("Numero do evento: " + i);
+            Console.WriteLine("Nome do evento: " + item.nome);
+            Console.WriteLine("Preco do evento: " + item.preco);
             i++;
         }
-        teste.lote = pessoaCadastro;
-        eventos.Add(teste);
+        escolha = int.Parse(Console.ReadLine());
+
+        eventos[0].lote = pessoaCadastro;
+        
+        //eventos.Add(teste);
         
     }
     public void cadastroEvento(){
@@ -100,7 +102,6 @@ class obterValores{
 
         Console.WriteLine("Digite o preço do evento");
         eventoCadastro.preco = double.Parse(Console.ReadLine());
-        teste = eventoCadastro;
-        eventos.Add(teste);
+        eventos.Add(eventoCadastro);
     }
 }
