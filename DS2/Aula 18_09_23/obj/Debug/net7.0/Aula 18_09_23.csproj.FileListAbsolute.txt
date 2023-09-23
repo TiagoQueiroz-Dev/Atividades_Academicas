@@ -1,0 +1,30 @@
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\bin\Debug\net7.0\appsettings.json
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\bin\Debug\net7.0\Aula 18_09_23.staticwebassets.runtime.json
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\bin\Debug\net7.0\Aula 18_09_23.exe
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\bin\Debug\net7.0\Aula 18_09_23.deps.json
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\bin\Debug\net7.0\Aula 18_09_23.runtimeconfig.json
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\bin\Debug\net7.0\Aula 18_09_23.dll
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\bin\Debug\net7.0\Aula 18_09_23.pdb
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\Aula 18_09_23.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\Aula 18_09_23.AssemblyInfoInputs.cache
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\Aula 18_09_23.AssemblyInfo.cs
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\Aula 18_09_23.csproj.CoreCompileInputs.cache
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\Aula 18_09_23.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\Aula 18_09_23.RazorAssemblyInfo.cache
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\Aula 18_09_23.RazorAssemblyInfo.cs
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\staticwebassets\msbuild.Aula 18_09_23.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\staticwebassets\msbuild.build.Aula 18_09_23.props
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Aula 18_09_23.props
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Aula 18_09_23.props
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\scopedcss\bundle\Aula 18_09_23.styles.css
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\scopedcss\projectbundle\Aula 18_09_23.bundle.scp.css
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\Aula 18_09_23.dll
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\refint\Aula 18_09_23.dll
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\Aula 18_09_23.pdb
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\Aula 18_09_23.genruntimeconfig.cache
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Aula 18_09_23\obj\Debug\net7.0\ref\Aula 18_09_23.dll

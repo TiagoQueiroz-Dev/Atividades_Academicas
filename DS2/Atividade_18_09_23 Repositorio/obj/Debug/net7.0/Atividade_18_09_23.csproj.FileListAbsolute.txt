@@ -1,0 +1,14 @@
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Atividade_18_09_23\bin\Debug\net7.0\Atividade_18_09_23.exe
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Atividade_18_09_23\bin\Debug\net7.0\Atividade_18_09_23.deps.json
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Atividade_18_09_23\bin\Debug\net7.0\Atividade_18_09_23.runtimeconfig.json
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Atividade_18_09_23\bin\Debug\net7.0\Atividade_18_09_23.dll
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Atividade_18_09_23\bin\Debug\net7.0\Atividade_18_09_23.pdb
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Atividade_18_09_23\obj\Debug\net7.0\Atividade_18_09_23.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Atividade_18_09_23\obj\Debug\net7.0\Atividade_18_09_23.AssemblyInfoInputs.cache
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Atividade_18_09_23\obj\Debug\net7.0\Atividade_18_09_23.AssemblyInfo.cs
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Atividade_18_09_23\obj\Debug\net7.0\Atividade_18_09_23.csproj.CoreCompileInputs.cache
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Atividade_18_09_23\obj\Debug\net7.0\Atividade_18_09_23.dll
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Atividade_18_09_23\obj\Debug\net7.0\refint\Atividade_18_09_23.dll
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Atividade_18_09_23\obj\Debug\net7.0\Atividade_18_09_23.pdb
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Atividade_18_09_23\obj\Debug\net7.0\Atividade_18_09_23.genruntimeconfig.cache
+C:\Users\Suricato Furtivo\Documents\Atividades_Academicas\DS2\Atividade_18_09_23\obj\Debug\net7.0\ref\Atividade_18_09_23.dll
