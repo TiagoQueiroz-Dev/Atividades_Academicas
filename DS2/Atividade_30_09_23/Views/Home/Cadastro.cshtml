@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form method="post" action="/Home/CadastroPost">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Digite seu Nome</label>
+    <input type="text" class="form-control" name="Nome" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nome">
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="exampleInputPassword1"> digite sua Idade</label>
+    <input type="text" class="form-control" name="Idade" id="exampleInputPassword1" placeholder="Idade">
+  </div>
+  <br>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>

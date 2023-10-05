@@ -1,0 +1,9 @@
+@using Atividade_30_09_23.Models;
+@model IEnumerable<Cadastrar>
+
+<h1>Listar</h1>
+
+@foreach(var item in Model){
+    <p>@item.Nome</p>
+    <p>@item.Idade</p>
+}
