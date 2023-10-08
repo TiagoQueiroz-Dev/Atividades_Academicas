@@ -1,0 +1,22 @@
+﻿@model List<Produto>
+
+
+<h1>Listar</h1>
+@foreach(var item in Model){
+    <table class = "table table-borderless">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Valor</th>
+            <th scope="col">Categoria</th>
+            <th scope="col">Descriçao</th>
+        </tr>
+        <tr>
+            <th scope="row">@item.Id</th>
+            <td>@item.Nome</td>
+            <td>@item.Valor</td>
+            <td>@item.Categoria</td>
+            <td>@item.Descricao</td>
+        </tr>
+    </table>
+}
